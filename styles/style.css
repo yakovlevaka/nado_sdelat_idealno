@@ -28,6 +28,7 @@ video {
     font-size: 116px;
     margin-top:60px;
     line-height: 136.18px;
+    letter-spacing:3.5px;
 }
 .page__heading:after {
     content: '*';
