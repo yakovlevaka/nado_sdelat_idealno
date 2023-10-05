@@ -10,9 +10,9 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 116px;
-    margin-top:60px;
-    line-height: 136px;
-    letter-spacing: 4px;
+    margin:4% 21%;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 .page__heading:after {
     content: '*';
@@ -21,8 +21,8 @@ body {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
     position:absolute;
-    top:30%;
-    right:2%;
+    top:21%;
+    right:1%;
     background-color: white;
     font-size:35px;
     text-transform: none;
@@ -35,9 +35,13 @@ body {
     text-align: left;
     box-shadow:  0 10px 0 0 black;
     letter-spacing: normal;
+    cursor:defalt;
+    
+
 } 
 .page__heading:hover {
     color:#4e4e4e;
+
 }
 body:hover::before {
     content: '';
