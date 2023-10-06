@@ -10,7 +10,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 116px;
-    margin:4% 21%;
+    max-width:740px;
+    margin:5% auto;
     line-height: 1.17;
     letter-spacing: 0.04em;
 }
@@ -21,8 +22,8 @@ body {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
     position:absolute;
-    top:21%;
-    right:1%;
+    right:2%;
+    top:22%;
     background-color: white;
     font-size:35px;
     text-transform: none;
@@ -60,3 +61,4 @@ video {
     object-fit: cover;
     object-position: center;
 }
+
