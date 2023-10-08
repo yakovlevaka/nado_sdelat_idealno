@@ -11,7 +11,7 @@ body {
     text-align: center;
     font-size: 116px;
     max-width:740px;
-    margin: 11% auto;
+    margin: 60px auto;
     line-height: 1.17;
     letter-spacing: 0.04em;
 }
@@ -22,10 +22,9 @@ body {
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
     position:absolute;
-    max-width:742px;
-    top:35%;
-    right:1%;
-    left:1%;
+    top:182px;
+    right:1.375%;
+    min-width:742px;
     background-color: white;
     font-size:35px;
     text-transform: none;
